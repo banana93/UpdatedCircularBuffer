@@ -1,7 +1,7 @@
 #ifndef CircularBuffer_H
 #define CircularBuffer_H
 
-typedef enum {ERR_NO_ERROR, ERR_BUFFER_IS_FULL, ERR_BUFFER_IS_EMPTY} ErrorCode;
+typedef enum {ERR_NO_ERROR, ERR_BUFFER_IS_FULL, ERR_BUFFER_IS_EMPTY}ErrorCode;
 
 typedef struct {
 	int *head;
